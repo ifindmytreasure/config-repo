@@ -16,6 +16,9 @@ spring:
     port: 5672
     username: guest
     password: guest
+  redis:
+    host: 47.101.189.10
+    port: 6379
 eureka:
   client:
     service-url:
