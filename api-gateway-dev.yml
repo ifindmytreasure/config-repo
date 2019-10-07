@@ -1,0 +1,13 @@
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:
+  ignored-patterns:
+    - /product/product/listfororder #限制访问
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
