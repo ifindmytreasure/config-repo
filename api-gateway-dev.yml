@@ -6,8 +6,8 @@ zuul:
       sensitiveHeaders:
   ignored-patterns:
     - /**/product/listfororder #限制访问
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
