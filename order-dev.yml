@@ -23,7 +23,7 @@ product:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
-  dev3
+  dev
 girl:
   name: liuyifei
   age: 35
