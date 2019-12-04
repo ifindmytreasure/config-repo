@@ -12,7 +12,7 @@ spring:
       hibernate:
         format_sql: true
   rabbitmq:
-    host: 47.101.89.10
+    host: 47.101.189.10
     prot: 5672
     username: guest
     password: guest
