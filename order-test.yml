@@ -11,10 +11,14 @@ spring:
     properties:
       hibernate:
         format_sql: true
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+  rabbitmq:
+    host: 47.101.89.10
+    prot: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 47.101.189.10
+    prot: 6379
 product:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
